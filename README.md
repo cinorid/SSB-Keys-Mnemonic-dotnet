@@ -1,3 +1,5 @@
+
+
 # SSB.Keys.Mnemonic
 
 Module that converts from/to SSB keys and [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) mnemonic codes.
@@ -28,7 +30,7 @@ Secret file conversion, converting, and formatting according to the operands.
 Samples:
 1.      dotnet SSB.Keys.Mnemonic.CLI.dll -m=s2w -sf=C:\Users\user\.ssb\secret
 2.      dotnet SSB.Keys.Mnemonic.CLI.dll -m=s2w -sf=C:\Users\user\.ssb\secret -wf=words.txt
-3.      dotnet SSB.Keys.Mnemonic.CLI.dll -m=w2s -w=C:\Users\user\.ssb\secret -sf=secret.txt
+3.      dotnet SSB.Keys.Mnemonic.CLI.dll -m=w2s -wf=words.txt -sf=secret.txt
 4.      dotnet SSB.Keys.Mnemonic.CLI.dll -m=w2s -w="body hair useful camp warm into cause riot two bamboo kick educate dinosaur advice seed type crisp where guilt avocado output rely lunch goddess" -sf=secret.txt
 
 ## API
